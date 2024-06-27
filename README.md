@@ -10,27 +10,27 @@ Este projeto consiste em dois aplicativos Tkinter que se complementam para criar
 - Limpa a última ação desenhada ou o canvas completo.
 
 # Como Usar
-1. Execute o script `Singin.py`:
+1. Execute o script `OpenSingMaker.py`:
    ```bash
-   python singin.py
+   python OpenSingMaker.py
    ```
 2. Use o mouse para desenhar a assinatura no canvas.
 3. Clique em "Salvar Assinatura" para salvar a assinatura como um arquivo PNG.
 4. Clique em "Limpar Última Ação" para desfazer a última ação desenhada.
 5. Clique em "Limpar" para limpar todo o canvas.
 
-## Aplicativo 2: Aplicar Assinaturas em PDF
+# Aplicativo 2: Aplicar Assinaturas em PDF
 
-### Funcionalidades
+## Funcionalidades
 - Carrega um documento PDF.
 - Carrega uma imagem de assinatura (PNG) previamente criada.
 - Permite posicionar a assinatura sobre o PDF.
 - Salva o PDF com a assinatura aplicada na posição desejada.
 
 ### Como Usar
-1. Execute o script `pdfsinger.py`:
+1. Execute o script `OpenPdfSinger.py`:
    ```bash
-   python singin.py
+   python OpenPdfSinger.py
    ```
 2. Clique em "Carregar PDF" para selecionar um documento PDF.
 3. Clique em "Carregar Assinatura" para selecionar uma imagem de assinatura PNG.
@@ -42,8 +42,8 @@ Este projeto consiste em dois aplicativos Tkinter que se complementam para criar
 
 Esses dois aplicativos se complementam ao fornecer uma solução completa para a criação e aplicação de assinaturas digitais em documentos PDF:
 
-1. **Criação da Assinatura:** Use o primeiro aplicativo (`singin.py`) para desenhar e salvar a sua assinatura como um arquivo PNG transparente.
-2. **Aplicação da Assinatura:** Use o segundo aplicativo (`pdfsinger.py`) para carregar o documento PDF e aplicar a assinatura criada no local desejado.
+1. **Criação da Assinatura:** Use o primeiro aplicativo (`OpenSingMaker.py`) para desenhar e salvar a sua assinatura como um arquivo PNG transparente.
+2. **Aplicação da Assinatura:** Use o segundo aplicativo (`OpenPdfSinger.py`) para carregar o documento PDF e aplicar a assinatura criada no local desejado.
 
 Dessa forma, você pode criar uma assinatura personalizada e usá-la facilmente em qualquer documento PDF.
 
@@ -52,5 +52,3 @@ Dessa forma, você pode criar uma assinatura personalizada e usá-la facilmente 
 By Brrxis Codes
 
 ---
-
-Se precisar de mais alguma coisa ou se tiver outras dúvidas, por favor, me avise!
